@@ -106,10 +106,15 @@ h1 {
   max-width: 760px;
   margin-bottom: 22px;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: clamp(3rem, 8vw, 6.8rem);
+  font-size: clamp(3rem, 6.7vw, 5.8rem);
   font-weight: 520;
-  line-height: 0.95;
+  line-height: 1;
   overflow-wrap: normal;
+}
+
+h1 span {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .lede {
@@ -291,7 +296,7 @@ h3 a {
   }
 
   h1 {
-    font-size: clamp(2.6rem, 13vw, 4.7rem);
+    font-size: clamp(2.4rem, 11vw, 4.2rem);
     line-height: 1;
   }
 
@@ -324,6 +329,6 @@ h3 a {
   }
 
   h1 {
-    font-size: clamp(2.25rem, 11.5vw, 3.4rem);
+    font-size: clamp(2rem, 9.4vw, 3rem);
   }
 }
