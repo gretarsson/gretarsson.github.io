@@ -222,10 +222,11 @@ h2 {
 
 .research-section {
   grid-template-columns: minmax(560px, 1fr) minmax(0, 0.85fr);
+  gap: clamp(42px, 7vw, 96px);
 }
 
 .research-section .section-body {
-  max-width: 540px;
+  max-width: 490px;
 }
 
 .focus-section {
