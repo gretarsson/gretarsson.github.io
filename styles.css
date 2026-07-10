@@ -200,9 +200,9 @@ h2 {
 }
 
 .section-title-compact {
-  max-width: 500px;
-  font-size: clamp(1.75rem, 2.15vw, 2.25rem);
-  line-height: 1.18;
+  max-width: 620px;
+  font-size: clamp(2rem, 3.2vw, 3rem);
+  line-height: 1.1;
 }
 
 .section-heading {
@@ -221,11 +221,11 @@ h2 {
 }
 
 .research-section {
-  grid-template-columns: minmax(500px, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(560px, 1fr) minmax(0, 0.85fr);
 }
 
 .research-section .section-body {
-  max-width: 620px;
+  max-width: 540px;
 }
 
 .focus-section {
