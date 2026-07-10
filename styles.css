@@ -200,9 +200,9 @@ h2 {
 }
 
 .section-title-compact {
-  max-width: 360px;
-  font-size: clamp(1.6rem, 1.85vw, 2rem);
-  line-height: 1.2;
+  max-width: 500px;
+  font-size: clamp(1.75rem, 2.15vw, 2.25rem);
+  line-height: 1.18;
 }
 
 .section-heading {
@@ -218,6 +218,14 @@ h2 {
 
 .section-body p:last-child {
   margin-bottom: 0;
+}
+
+.research-section {
+  grid-template-columns: minmax(500px, 0.95fr) minmax(0, 1.05fr);
+}
+
+.research-section .section-body {
+  max-width: 620px;
 }
 
 .focus-section {
@@ -374,6 +382,12 @@ h3 a {
 
   .focus-item {
     min-height: auto;
+  }
+}
+
+@media (max-width: 980px) {
+  .research-section {
+    grid-template-columns: 1fr;
   }
 }
 
