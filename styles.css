@@ -198,6 +198,11 @@ h2 {
   line-height: 1.1;
 }
 
+.section-title-compact {
+  font-size: clamp(1.85rem, 2.55vw, 2.5rem);
+  line-height: 1.16;
+}
+
 .section-heading {
   max-width: 760px;
   margin-bottom: 34px;
