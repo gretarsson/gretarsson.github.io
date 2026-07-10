@@ -199,12 +199,6 @@ h2 {
   overflow-wrap: break-word;
 }
 
-.section-title-compact {
-  max-width: 620px;
-  font-size: clamp(2rem, 3.2vw, 3rem);
-  line-height: 1.1;
-}
-
 .section-heading {
   max-width: 760px;
   margin-bottom: 34px;
