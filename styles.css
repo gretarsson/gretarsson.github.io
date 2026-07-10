@@ -172,11 +172,6 @@ h1 span {
   color: var(--muted);
 }
 
-.profile-panel .role {
-  color: var(--ink);
-  font-weight: 800;
-}
-
 .section {
   width: 100%;
   padding: clamp(56px, 8vw, 92px) max(22px, calc((100vw - var(--max)) / 2));
