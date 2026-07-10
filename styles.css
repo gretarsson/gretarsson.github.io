@@ -181,7 +181,7 @@ h1 span {
 
 .two-column {
   display: grid;
-  grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.2fr);
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
   gap: clamp(28px, 6vw, 74px);
 }
 
@@ -196,11 +196,13 @@ h2 {
   font-size: clamp(2rem, 3.2vw, 3rem);
   font-weight: 500;
   line-height: 1.1;
+  overflow-wrap: break-word;
 }
 
 .section-title-compact {
-  font-size: clamp(1.85rem, 2.55vw, 2.5rem);
-  line-height: 1.16;
+  max-width: 420px;
+  font-size: clamp(1.75rem, 2.15vw, 2.25rem);
+  line-height: 1.18;
 }
 
 .section-heading {
