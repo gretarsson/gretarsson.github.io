@@ -170,6 +170,7 @@ h1 span {
 .profile-panel p {
   margin-bottom: 3px;
   color: var(--muted);
+  font-weight: 400;
 }
 
 .section {
